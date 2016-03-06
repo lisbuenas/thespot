@@ -1,0 +1,42 @@
+#field {
+  max-width: 450px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 5%;
+}
+#logo {
+  height: 180px;
+  width: 180px;
+  margin: 0 auto;
+}
+#trade {
+  float: right;
+  margin-right: 5px;
+}
+#field-auth {
+  height: 210px;
+  width: 100%;
+  margin-top: 10px;
+  background-color: #353E99;
+  padding: 10px;
+}
+#field-auth form {
+  max-width: 450px;
+  width: 100%;
+  margin: 0 auto;
+  color: #FFF;
+}
+.field-auth label {
+  color: #FFF;
+}
+.btn-default {
+  background-color: #FFF;
+  color: #353E99;
+  font-family: 'Open Sans', sans-serif;
+}
+.linha {
+  margin-top: -15px;
+  width: 100%;
+  border-top: 1px solid #ccc;
+  margin-bottom: 30px;
+}
