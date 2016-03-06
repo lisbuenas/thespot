@@ -532,11 +532,11 @@ h6 {
           transition: background-color 0.3s, height 0.3s;
 }
 .st-navbar-mini .navbar-default {
-  background-color: rgba(40, 40, 40, 0.95);
-  height: 60px;
+    background-color: rgba(40, 40, 40, 0.95);
+    height: 60px;
 }
 .st-navbar-mini .navbar-default .navbar-brand {
-  padding: 15px 15px;
+    padding: 15px 15px;
 }
 .st-navbar-mini .navbar-default .navbar-brand img {
   height: 30px;
@@ -1630,8 +1630,8 @@ footer.site-footer a:hover {
 }
 
 .navbar-default {
-    background-color: rgba(40, 40, 40, 0.95);
-    height: 60px !important;
+    background-color: rgba(82, 152, 210, 0.75);
+    height: auto;
 }
 
 #home{

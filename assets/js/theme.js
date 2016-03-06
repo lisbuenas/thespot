@@ -15,7 +15,7 @@
     // Full Height Banner
     //========================
     //getWidthAndHeight();
-    $(window).resize(function () {
+    /*$(window).resize(function () {
         getWidthAndHeight();
     });
     function getWidthAndHeight() {
@@ -38,36 +38,9 @@
         $('.bannerSix').css({'height': winHeight});
         $('.bannerSeven').css({'height': winHeight});
 
-    }
+    }*/
     
-    //=======================================================
-    // Background Video
-    //=======================================================
-    var vid = document.getElementById("myVideo");
-    function playPause() {
-        if (vid.paused) {
-            vid.play();
-        }
-        else {
-            vid.pause();
-        }
-    }
-    if ($('#myVideo').length > 0) {
-        $('#playVideo').on('click', function (e) {
-            e.preventDefault();
-            playPause();
-            if ($(this).hasClass('playing'))
-            {
-                $(this).removeClass('playing').html('<i class="fa fa-play"></i>');
-                vid.pause();
-            }
-            else
-            {
-                $(this).addClass('playing').html('<i class="fa fa-pause"></i>');
-                vid.play();
-            }
-        });
-    }
+   
     
     
     //========================
